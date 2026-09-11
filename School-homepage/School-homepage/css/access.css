@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+
+h1 {
+    border-bottom:10px solid green;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.top {
+    color: green;
+    font-size: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid green;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
+
+h2 {
+    text-align: left;
+    margin: 10px 10px 50px 100px;
+    border-bottom: 2px solid green;
+}
+
+button {
+    margin: 0px 0px 50px 100px;
+}
+
+.slider {
+width: 800px;
+overflow: hidden;
+margin: 30px auto;
+}
+
+.slider-track {
+display: flex;
+transition: transform 0.5s ease;
+}
+
+.slider-track img {
+width: 800px;
+height: 450px;
+object-fit: cover;
+flex-shrink: 0;
+}
+
+.slider-buttons {
+text-align: center;
+margin-top: 10px;
+}
+
+.slider-buttons button:hover {
+background-color: lightgray;
+}
+
+.introduce{
+    text-align: left;
+    margin: 10px 10px 10px 100px;
+}
+
+.course{
+    text-align: left;
+    margin: 10px 10px 10px 100px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 450px;
+}
